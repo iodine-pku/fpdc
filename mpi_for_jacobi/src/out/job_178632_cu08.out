@@ -1,0 +1,26 @@
+run parallel Jacobi with gird size: m = 128 n = 128 max_iter = 20000 ...
+strategy:p2p
+total 16 processes
+1000th iteration completed
+2000th iteration completed
+3000th iteration completed
+4000th iteration completed
+5000th iteration completed
+6000th iteration completed
+7000th iteration completed
+8000th iteration completed
+9000th iteration completed
+10000th iteration completed
+11000th iteration completed
+12000th iteration completed
+13000th iteration completed
+14000th iteration completed
+15000th iteration completed
+16000th iteration completed
+17000th iteration completed
+18000th iteration completed
+19000th iteration completed
+20000th iteration completed
+Wall time(second): 0.565118
+Total wait time(second): 0.021655
+Max Error: 0.000205

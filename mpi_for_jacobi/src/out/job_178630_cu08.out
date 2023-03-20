@@ -1,0 +1,6 @@
+run parallel Jacobi with gird size: m = 128 n = 128 max_iter = 20000 ...
+strategy:p2p
+total 1 processes
+Abort(1007269126) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Irecv: Invalid rank, error stack:
+PMPI_Irecv(156): MPI_Irecv(buf=0x7ffdaa4bdd40, count=128, MPI_FLOAT, src=1, tag=111, MPI_COMM_WORLD, request=0x7ffdaa4bdd38) failed
+PMPI_Irecv(99).: Invalid rank has value 1 but must be nonnegative and less than 1

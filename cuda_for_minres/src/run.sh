@@ -1,0 +1,2 @@
+python3 gpu_minres_v3.py
+python3 gpu_minres_v4.py
